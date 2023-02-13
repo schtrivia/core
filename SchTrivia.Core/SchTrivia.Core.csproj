@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>question generator, openai, gpt-3</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Company>SchTrivia</Company>
+    <Authors>SchTrivia, alekami649</Authors>
+    <Title>SchTrivia</Title>
+    <Product>SchTrivia</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.6.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+</Project>

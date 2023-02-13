@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchTrivia.Core", "SchTrivia.Core.csproj", "{3A7DA6BD-8618-4154-87F0-CD7C64CA7BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchTrivia.Console", "..\SchTrivia.Console\SchTrivia.Console.csproj", "{815B84A3-8C8A-472A-AB7F-388FD13B11A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7DA6BD-8618-4154-87F0-CD7C64CA7BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7DA6BD-8618-4154-87F0-CD7C64CA7BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7DA6BD-8618-4154-87F0-CD7C64CA7BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7DA6BD-8618-4154-87F0-CD7C64CA7BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815B84A3-8C8A-472A-AB7F-388FD13B11A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815B84A3-8C8A-472A-AB7F-388FD13B11A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815B84A3-8C8A-472A-AB7F-388FD13B11A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815B84A3-8C8A-472A-AB7F-388FD13B11A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA3B87C-ECC8-4086-BDFA-C3BFDAE6DA3D}
+	EndGlobalSection
+EndGlobal
